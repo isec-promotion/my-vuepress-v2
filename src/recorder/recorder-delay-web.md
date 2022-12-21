@@ -1,0 +1,1 @@
+![](./images/recorder-delay-web/000.jpg)
