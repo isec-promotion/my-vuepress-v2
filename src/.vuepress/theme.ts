@@ -10,7 +10,8 @@ export default hopeTheme({
     url: "https://mrhope.site",
   },
 
-  iconAssets: "iconfont",
+  // iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
   logo: "/logo.svg",
 

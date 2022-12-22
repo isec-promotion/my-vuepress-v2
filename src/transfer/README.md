@@ -14,17 +14,17 @@ actions:
 
 features:
   - title: 全機種共通
-    icon: markdown
+    icon: book
     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
     link: ./common-basic-overview
 
   - title: LAN-HD264E
-    icon: slides
+    icon: wrench
     details: Adding slide pages to display things you like
     link: ./encoder-instruction
 
   - title: LAN-HD264D
-    icon: layout
+    icon: hammer
     details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
     link: ./decoder-instruction
 

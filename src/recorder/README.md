@@ -14,17 +14,17 @@ actions:
 
 features:
   - title: レコーダーの使い方
-    icon: markdown
+    icon: book
     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
     link: ./recorder-basic-overview/
 
   - title: シーン別便利機能
-    icon: slides
+    icon: wrench
     details: Adding slide pages to display things you like
     link: ./recorder-password-off
 
   - title: よくある質問
-    icon: layout
+    icon: hammer
     details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
     link: ./faq03-language
 

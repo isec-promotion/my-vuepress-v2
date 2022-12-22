@@ -14,12 +14,12 @@ actions:
 
 features:
   - title: PC（UMS、UMS-M）
-    icon: markdown
+    icon: desktop
     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
     link: ./pc-connect-recorder
 
   - title: スマホ（iUMS、iUMS+）
-    icon: slides
+    icon: mobile
     details: Adding slide pages to display things you like
     link: ./mobile-ums-readme
 

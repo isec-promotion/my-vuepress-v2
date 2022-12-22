@@ -4,100 +4,100 @@ export const enNavbar = navbar([
   "/",
   {
     text: "監視カメラ",
-    icon: "launch",
+    icon: "camera",
     prefix: "/camera/",
     children: [
       {
         text: "トップページ",
-        icon: "discover",
+        icon: "home",
         link: "",
       },
       {
         text: "商品の基本操作",
-        icon: "discover",
+        icon: "book",
         link: "camera-plugin",
       },
     ],
   },
   {
     text: "レコーダー",
-    icon: "discover",
+    icon: "server",
     prefix: "/recorder/",
     children: [
       {
         text: "トップページ",
-        icon: "discover",
+        icon: "home",
         link: "",
       },
       {
         text: "レコーダーの使い方",
-        icon: "discover",
+        icon: "book",
         link: "recorder-basic-overview",
       },
       {
         text: "シーン別便利機能",
-        icon: "discover",
+        icon: "wrench",
         link: "recorder-password-off",
       },
       {
         text: "よくある質問",
-        icon: "discover",
+        icon: "hammer",
         link: "faq03-language",
       },
     ],
   },
   {
     text: "映像伝送装置",
-    icon: "discover",
+    icon: "hard-drive",
     prefix: "/transfer/",
     children: [
       {
         text: "トップページ",
-        icon: "discover",
+        icon: "home",
         link: "",
       },
       {
         text: "全機種共通",
-        icon: "discover",
+        icon: "book",
         link: "common-basic-overview",
       },
       {
         text: "LAN-HD264E",
-        icon: "discover",
+        icon: "wrench",
         link: "encoder-instruction",
       },
       {
         text: "LAN-HD264D",
-        icon: "discover",
+        icon: "hammer",
         link: "decoder-instruction",
       },
     ],
   },
   {
     text: "ソフトウェア",
-    icon: "discover",
+    icon: "icons",
     prefix: "/software/",
     children: [
       {
         text: "トップページ",
-        icon: "discover",
+        icon: "home",
         link: "",
       },
       {
         text: "PC（UMS、UMS-M）",
-        icon: "discover",
+        icon: "desktop",
         link: "pc-connect-recorder",
       },
       {
         text: "スマホ（iUMS、iUMS+）",
-        icon: "discover",
+        icon: "mobile",
         link: "mobile-ums-readme",
       },
     ],
   },
   {
     text: "会社HP",
-    icon: "note",
+    icon: "building",
     link: "https://isecj.jp/",
   },
 ]);

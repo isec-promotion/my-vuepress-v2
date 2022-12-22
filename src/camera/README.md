@@ -14,7 +14,7 @@ actions:
 
 features:
   - title: 商品の基本操作
-    icon: markdown
+    icon: book
     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
     link: ./camera-plugin
 
