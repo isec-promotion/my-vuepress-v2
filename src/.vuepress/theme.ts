@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
+    name: "アイゼック株式会社",
     url: "https://mrhope.site",
   },
 
@@ -19,7 +19,8 @@ export default hopeTheme({
 
   // docsDir: "demo/theme-docs/src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Original", "Date", "Category", "Tag"],
 
   pure: true,
 

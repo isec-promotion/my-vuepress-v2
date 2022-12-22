@@ -3,7 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export const enSidebar = sidebar({
   "/camera/": [
     {
-      icon: "discover",
+      icon: "book",
       text: "商品の基本操作",
       prefix: "",
       link: "",
@@ -27,7 +27,7 @@ export const enSidebar = sidebar({
   ],
   "/recorder/": [
     {
-      icon: "discover",
+      icon: "book",
       text: "使い方",
       prefix: "",
       link: "",
@@ -36,17 +36,17 @@ export const enSidebar = sidebar({
         "recorder-basic-overview",
         {
           text: "１初めの操作",
-          icon: "discover",
+          icon: "paperclip",
           children: ["recorder-first-operation"],
         },
         {
           text: "２リアルタイムでの監視",
-          icon: "discover",
+          icon: "paperclip",
           children: ["recorder-monitor-realtime"],
         },
         {
           text: "３録画方法の選択",
-          icon: "discover",
+          icon: "paperclip",
           children: [
             "record01-introduce",
             "record02-sensor",
@@ -57,17 +57,17 @@ export const enSidebar = sidebar({
         },
         {
           text: "４録画の再生",
-          icon: "discover",
+          icon: "paperclip",
           children: ["recorder-play-overview", "recorder-play02-howto"],
         },
         {
           text: "５録画のバックアップ",
-          icon: "discover",
+          icon: "paperclip",
           children: ["backup02-hdd", "backup03-usb"],
         },
         {
           text: "６メンテナンス",
-          icon: "discover",
+          icon: "paperclip",
           children: [
             "recorder-ntp-adjust",
             "faq04-ntp",
@@ -77,14 +77,14 @@ export const enSidebar = sidebar({
       ],
     },
     {
-      icon: "discover",
+      icon: "wrench",
       text: "シーン別便利機能",
       collapsible: true,
       children: [
         "recorder-password-off",
         {
           text: "遠隔監視",
-          icon: "discover",
+          icon: "paperclip",
           children: [
             "faq05-remote-viewer",
             "function-ip-connection",
@@ -95,7 +95,7 @@ export const enSidebar = sidebar({
         },
         {
           text: "便利機能（通知など）",
-          icon: "discover",
+          icon: "paperclip",
           children: [
             "function05-sound",
             "function02-ios",
@@ -105,13 +105,13 @@ export const enSidebar = sidebar({
         },
         {
           text: "メンテナンス",
-          icon: "discover",
+          icon: "paperclip",
           children: ["recorder-log-message", "recorder-mail-notification"],
         },
       ],
     },
     {
-      icon: "discover",
+      icon: "hammer",
       text: "よくある質問",
       collapsible: true,
       children: [
@@ -122,17 +122,17 @@ export const enSidebar = sidebar({
         "recorder-password-remote",
         {
           text: "お問い合わせ時に必要な情報を知りたい",
-          icon: "discover",
+          icon: "paperclip",
           children: ["faq02-serial"],
         },
         {
           text: "各部の名称と働き",
-          icon: "discover",
+          icon: "paperclip",
           children: ["recorder-names-functions"],
         },
         {
           text: "保障・アフターサービス",
-          icon: "discover",
+          icon: "paperclip",
           children: ["recorder-warranty-after-sales"],
         },
       ],
