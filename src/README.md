@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: トップページ
-heroImage: /logo.svg
+heroImage: /logo.jpg
 heroText: オンライン取説
 tagline: アイゼック製品のサポートページです。
 
