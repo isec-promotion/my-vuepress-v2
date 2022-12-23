@@ -43,7 +43,7 @@ export default hopeTheme({
       navbarLayout: {
         left: ["Brand"],
         center: ["Links"],
-        right: ["Outlook"],
+        right: ["Outlook", "Search"],
       },
     },
   },
