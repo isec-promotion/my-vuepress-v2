@@ -29,8 +29,8 @@ export default defineUserConfig({
       componentsDir: path.resolve(__dirname, "./components"),
     }),
     docsearchPlugin({
-      appId: "34YFD9IUQ2",
-      apiKey: "9a9058b8655746634e01071411c366b8",
+      appId: "QDFAGFTOVQ",
+      apiKey: "daab5033f238b100d0af3bd40572f9e3",
       indexName: "vuepress",
       searchParameters: {
         facetFilters: ["tags:v2"],
