@@ -6,19 +6,21 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
+    name: "アイゼック株式会社",
     url: "https://mrhope.site",
   },
 
-  iconAssets: "iconfont",
+  // iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
-  logo: "/logo.svg",
+  logo: "/logo-mini.jpg",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   // docsDir: "demo/theme-docs/src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Original", "Date", "Category", "Tag"],
 
   pure: true,
 
@@ -41,7 +43,7 @@ export default hopeTheme({
       navbarLayout: {
         left: ["Brand"],
         center: ["Links"],
-        right: ["Outlook"],
+        right: ["Outlook", "Search"],
       },
     },
   },

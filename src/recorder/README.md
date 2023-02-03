@@ -4,28 +4,21 @@ title: レコーダー
 heroImage: /logo.svg
 heroText: レコーダー
 tagline: レコーダーの使い方はこちらから
-actions:
-  - text: How to Use 💡
-    link: /demo/
-    type: primary
-
-  - text: Docs
-    link: /guide/
 
 features:
   - title: レコーダーの使い方
-    icon: markdown
-    details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
+    icon: book
+    details: レコーダーのセットアップ、録画の設定、バックアップ、メンテナンスの設定方法はこちら。
     link: ./recorder-basic-overview/
 
   - title: シーン別便利機能
-    icon: slides
-    details: Adding slide pages to display things you like
+    icon: wrench
+    details: 遠隔監視や通知、音声発報等の設定方法はこちら。
     link: ./recorder-password-off
 
   - title: よくある質問
-    icon: layout
-    details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
+    icon: hammer
+    details: よくある質問はこちら。
     link: ./faq03-language
 
 copyright: false
