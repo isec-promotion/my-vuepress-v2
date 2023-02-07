@@ -33,7 +33,7 @@ export default defineUserConfig({
       apiKey: "daab5033f238b100d0af3bd40572f9e3",
       indexName: "sample001",
       searchParameters: {
-        facetFilters: ["tags:v2"],
+        // facetFilters: ["tags:v2"],
       },
       locales: {
         "/": {
