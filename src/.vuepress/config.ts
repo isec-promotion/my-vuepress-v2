@@ -30,7 +30,7 @@ export default defineUserConfig({
     }),
     docsearchPlugin({
       appId: "QDFAGFTOVQ",
-      apiKey: "daab5033f238b100d0af3bd40572f9e3",
+      apiKey: "065c36f7a323179757a7f827102966de",
       indexName: "sample001",
       searchParameters: {
         // facetFilters: ["tags:v2"],
