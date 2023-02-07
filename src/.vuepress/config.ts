@@ -31,7 +31,7 @@ export default defineUserConfig({
     docsearchPlugin({
       appId: "QDFAGFTOVQ",
       apiKey: "daab5033f238b100d0af3bd40572f9e3",
-      indexName: "vuepress",
+      indexName: "sample001",
       searchParameters: {
         facetFilters: ["tags:v2"],
       },
