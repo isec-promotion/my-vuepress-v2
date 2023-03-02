@@ -10,9 +10,11 @@ const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: '/',
+  lang: 'ja-JP',
 
   locales: {
     '/': {
+      lang: 'ja-JP',
       title: 'オンライン取説',
       description: 'A docs demo for vuepress-theme-hope',
     },
@@ -30,6 +32,9 @@ export default defineUserConfig({
       appId: 'QDFAGFTOVQ',
       apiKey: 'daab5033f238b100d0af3bd40572f9e3',
       indexName: 'sample001',
+      searchParameters: {
+        // facetFilters: ["tags:v2"],
+      },
       locales: {
         '/': {
           placeholder: 'ドキュメント検索',
