@@ -32,6 +32,9 @@ export default defineUserConfig({
       appId: 'QDFAGFTOVQ',
       apiKey: 'daab5033f238b100d0af3bd40572f9e3',
       indexName: 'sample001',
+      searchParameters: {
+        // facetFilters: ["tags:v2"],
+      },
       locales: {
         '/': {
           placeholder: 'ドキュメント検索',
